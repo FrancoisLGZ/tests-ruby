@@ -13,7 +13,8 @@ def time_string(a)
 
   elsif a >=70 and a < 120
     return x = "00:01:#{a-60}"
+
+  elsif a >=70 and a < 120
+    return x = "00:01:#{a-60}"
   end
 end
-
-puts time_string(80)
