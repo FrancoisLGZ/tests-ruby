@@ -16,5 +16,9 @@ def time_string(a)
 
   elsif a >=70 and a < 120
     return x = "00:01:#{a-60}"
+
+#Coder pour toutes les minutes ? Je ne trouve pas comment réduire/automatiser
+#Fonction .step?
+
   end
 end
